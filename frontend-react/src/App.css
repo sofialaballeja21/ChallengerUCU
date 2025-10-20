@@ -1,0 +1,53 @@
+.app-container {
+  min-height: 100vh;
+  background: linear-gradient(135deg, #c3ecc7 0%, #050811 100%);
+}
+
+.app-header {
+  text-align: center;
+  padding: 2rem 1rem;
+  background: rgba(243, 245, 243, 0.9);
+  border-bottom: 1px solid rgba(76, 201, 240, 0.3);
+  
+}
+
+.app-title {
+  font-size: 3rem;
+  font-weight: 700;
+  background: linear-gradient(135deg, #58a75e 0%, #0dbb5b 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin-bottom: 0.5rem;
+}
+
+.app-subtitle {
+  font-size: 1.2rem;
+  color: #94a3b8;
+}
+
+.app-content {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  padding: 2rem;
+  max-width: 1200px;
+  margin: 0 auto;
+  align-items: flex-start;
+}
+
+.form-section {
+
+  width: 100%;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.character-section {
+  width: 100%;
+}
+
+.character-component-container {
+  flex: 1;
+  min-width: 0;
+}
+
